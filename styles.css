@@ -1,0 +1,60 @@
+body {
+    font-family: 'STKaiti', 'KaiTi', serif;
+    /* 使用文言文风格的楷体字体 */
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #FF6B6B, #FFE66D, #8EE4AF, #4F86C6);
+}
+
+header {
+    background-color: transparent;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+
+/* 按钮样式 */
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    background: linear-gradient(45deg, #FF8C8C, #FFD166, #A3D9A5, #70A1D7);
+    transition: background 0.3s ease-in-out;
+}
+
+
+/* 当鼠标悬停在按钮上时的样式 */
+
+.button:hover {
+    background: linear-gradient(45deg, #FFD166, #FF8C8C, #70A1D7, #A3D9A5);
+}
+
+footer {
+    background-color: transparent;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+@keyframes fadeInText {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
